@@ -21,17 +21,68 @@
 
 #seccion1 {
     height: 30%;
+    width: 100%;
     background-color:#b01a1c ;
     border: 2px;
     border-color: #68531e;
+    display: flex;
+    
+}
+
+#seccion1 article {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    margin-left: 1%;
+
+}
+
+#seccion1 ul {
+    float: right;
+    list-style: none;
+    margin-right: 10%;
 }
 
 #seccion2 {
     height: 30%;
-    background-color: #dcc43c;
+    width: 100%;
+    background-color: #dcc43c ;
+    border: 2px;
+    border-color: #68531e;
+    display: flex;
+    
+}
+
+#seccion2 article {
+    width: 50%;
+    float: right;
+    text-align: justify;
+    margin-right: 10%;
+}
+
+#seccion2 ul {
+    float: left;
+    list-style: none;
+    margin-right: 10%;
 }
 
 #pie {
     height: 10%;
     background-color: #744607 ;
+}
+
+ul {
+    display: flex;
+    
+}
+
+li {
+
+}
+
+img {
+    height: 100px;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
